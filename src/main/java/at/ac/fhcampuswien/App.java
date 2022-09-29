@@ -1,22 +1,46 @@
 package at.ac.fhcampuswien;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class App {
 
     //todo Task 1
     public void sayHelloWorld(){
-        // input your solution here
+        System.out.println("Hello World!");
     }
 
     //todo Task 2
-    public void helloRobot(){
-        // input your solution here
-    }
+    public void helloRobot() {
+        System.out.println("0123456789012345678901" + System.lineSeparator() +
+                "         __" + System.lineSeparator() +
+                " _(\\    |@@|" + System.lineSeparator() +
+                "(__/\\__ \\--/ __" + System.lineSeparator() +
+                "   \\___|----|  |   __" + System.lineSeparator() +
+                "       \\ }{ /\\ )_ / _\\" + System.lineSeparator() +
+                "       /\\__/\\ \\__O (__" + System.lineSeparator() +
+                "      (--/\\--)    \\__/" + System.lineSeparator() +
+                "      _)(  )(_" + System.lineSeparator() +
+                "     `---''---`"
+        );
+    };
 
     //todo Task 3
     public void sumOfLiterals(){
-        // input your solution here
+        char c = 'Z';
+        int i1 = 0xface;
+        int i2 =012;
+        long l=80L;
+        float f1=44e-1f;
+        float f2=5.5f;
+        double d1=8.88e1;
+        double d2=99.9;
+
+        int sum;
+
+        sum = c + i1 + i2 + (int)l + (int)f1 + (int)f2 + (int)d1 + (int)d2;
+        System.out.println(sum);
+
     }
 
     //todo Task 4
